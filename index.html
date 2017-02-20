@@ -8,30 +8,18 @@
     <p id="rest"> </p> 
 
     <script>
-    var num1= 2;
-    var num2= 5;
-    var num3= 6;
-    var num4= 6;
-    // comparacion 
-    var comparar =(num1 != num2);
-     respuesta5="no son iguales";
-     /*if (num3 == num4 && num1 != num2 ) {
-         respuesta5="yabadabadu!!! ";
-        
-     } else{
+    var input1 =prompt("digite un numero")
+    var input2 = prompt("digite otro numero")
 
-            respuesta5="pailas ";
+    var num1=parseInt(input1)
+    var num2=parseInt(input2)  
 
-     } */  
+
+    var respuesta= num1 + num2;
+
+
+      document.getElementById("rest").innerHTML = respuesta;
     
-var num5=10;
-
-while(num5 <= 20){
-      document.getElementById("rest").innerHTML +=  num5 +"-";
-    num5++;
-    }
-
-  
     </script>
 </body>
 </html> 
